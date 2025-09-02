@@ -4,7 +4,7 @@
 
 ```bash
 # Cria alias para baixar e executar.
-echo 'alias upcode="curl -s \"https://db33.dev.dinabox.net/upcode/upcode.sh?v=\$(date +%s)\" | bash"' >> ~/.bashrc
+echo 'alias upcode="curl -s \"https://raw.githubusercontent.com/feerdinando/uploader-tool/refs/heads/main/upcode.sh?v=\$(date +%s)\" | bash"' >> ~/.bashrc
 
 # Recarrega o bash
 source ~/.bashrc
