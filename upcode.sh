@@ -2,7 +2,7 @@
 # filepath: c:\Users\Dinabox\Desktop\main_01_01\main_01_09\upcode\upcode.sh
 
 # Base URL do repositório
-BASE_URL="https://raw.githubusercontent.com/fernando-dinabox/upcode/refs/heads/main/upcode"
+BASE_URL="https://raw.githubusercontent.com/feerdinando/uploader-tool/refs/heads/main/upcode.sh"
 
 
 # Definir pasta para arquivos temporários do upcode
