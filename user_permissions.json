@@ -1,0 +1,46 @@
+{
+  "users": {
+    "9130": {
+      "name": "Fernando",
+      "can_delete": true,
+      "folders": {
+        "apps/pcp/machine-settings/": false,
+        "apps/central/app/resources/": false,
+        "wp-content/plugins/dinabox/plugin/": false,
+        "fernando-teste/": true,
+        "upcode/": false
+      }
+    },
+    "18239": {
+      "name": "Clian", 
+      "can_delete": true,
+      "folders": {
+        "apps/central/app/control/projetos/": true,
+        "apps/central/app/resources/": true,
+        "app/plugin/services/": true,
+        "app/plugin/services/css/": true,
+        "app/plugin/services/js/": true,
+        "apps/pcp/machine-settings/": true,
+        "manual/": true,
+        "t3/": true
+      }
+    }
+  },
+
+  "allowed_extensions": [
+    "php", "php3", "php4", "php5", "phtml",
+    "html", "htm", "css", "js", "json", "txt", "md", "xml",
+    "csv", "yml", "yaml", "ini",
+    "svg", "ico", "png", "jpg", "jpeg", "gif", "bmp", "webp",
+    "pdf", "doc", "docx", "xls", "xlsx", "ppt", "pptx",
+    "ts", "tsx", "map",
+    "woff", "woff2", "eot", "ttf", "otf",
+    "scss", "less", "log"
+  ],
+  "config": {
+    "max_file_size": 50,
+    "auto_create_dirs": true,
+    "default_permissions": "0777",
+    "base_directory": "/opt/bitnami/apps/wordpress/htdocs/"
+  }
+}
